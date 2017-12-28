@@ -1,0 +1,23 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 23-mei-2016, 10:44:01
+    Author     : Duncan
+*/
+
+@media screen and (max-width:690px){
+    /*eerste stap verkleinen*/
+    
+    
+    #selecteerfoto img {
+        
+        height: 200px;
+        margin-right: -10px;
+    }
+}
+@media screen and (max-width:1200px){
+    /*tweede stap verkleinen fotos niet onder elkaar*/
+}

@@ -1,0 +1,46 @@
+
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" type="text/css" href="assets/css/reset.css"/>
+        <link href="assets/css/style.css" type="text/css" rel=stylesheet>
+        <title>login</title>
+    </head>
+    <body>
+        <div id="container">
+            <section>
+                <form id="login">
+
+                    <ul id="keuzeSpeler">
+            <li><img class="speler2" src="assets/images/speler2.png" alt="speler2" title="speler2"/></li>
+        </ul>
+                    <div id="guestradio"> 
+                        <label id="guest">Play as Guest: </label>
+                    <input type="radio" name="guest" value="speler2" id="checkYes2" class="checkYes"><label class="checks" for="checkYes2">Yes</label>
+                    <input type="radio" name="guest" value="no" id="checkNo" class="checkNo" checked><label class="checks" for="checkNo">No</label>
+                    </div>
+                    <div id="loginform" >
+                        <ul>
+                            <li><label for="gebruikersnaam">Gebruikersnaam: </label>
+                                <input type="text" id="gebruikersnaam" name="gebruikersnaam" value=""
+                                       class = "gebruikersnaam2" placeholder=" gebruikersnaam" required>
+                            </li>
+                            <li><label for="wachtwoord">Wachtwoord: </label>
+                                <input type="password" id="wachtwoord" name="wachtwoord" value="" placeholder=" wachtwoord" required>
+                            </li>
+                        </ul>
+                    </div>
+
+                </form>
+                
+                <a href="index.html"><img class="back" src="assets/images/backbutton.png" alt="backbutton"
+                                     title="backbutton"></a>
+                <img class="next" src="assets/images/nextbutton.png" alt="nextbutton" title="nextbutton">
+            </section>
+        </div>
+        <script src="assets/js/jquery-1.12.3.min.js" type="text/javascript"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+    <script type="text/javascript" src="assets/js/loginscript.js"></script>
+    </body>
+</html>

@@ -1,0 +1,204 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 22-mrt-2016, 14:03:26
+    Author     : michieldick
+*/
+body{
+    background-image: url("../media/achtergrond.png");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-color: gray
+
+}
+
+#container{
+    text-align: center;
+}
+
+.hide{
+    display: none
+}
+.logo,.speler1, .speler2, .speler3, .speler4,.registrerenlogo, .loginlogo{
+    margin-bottom: 85px;
+    margin-top: 50px;
+    width: 631px;
+    height: 200px;
+}
+
+#keuzeSpeler, #registreren, #login{
+    margin-top: 105px;
+}
+
+h1, #selecteerAantalSpelers{
+    font-family: "Old English Text MT";
+    color: #d9a005;
+    font-size: 5em;
+}
+
+#selecteerAantalSpelers{
+    margin-top: 20%;
+    text-align: left;
+    margin-left: 5%;
+    font-size: 3em;
+}
+
+.registreren,.login,.guest, .score, .start {
+    margin-bottom: 20px;
+    width: 258px;
+    height: 75px;
+}
+
+.back{
+    width:242px;
+    height:114px;
+    position: absolute;
+    left: 10px;
+    bottom: 2%;
+}
+
+.next{
+    width:242px;
+    height:114px;
+    position: absolute;
+    right: 10px;
+    bottom: 2%;
+}
+
+#registratieform, #loginform{
+    text-align: left;
+    margin-left: 38%;
+}
+
+#gebruikersnaam, #logingebruikersnaam{
+    margin-left: 4%;
+}
+#wachtwoord, #loginwachtwoord{
+    margin-left: 8%;
+}
+label{
+    font-size: 2em;
+    font-weight: bold;
+    color: #FFFFFF;
+    margin-bottom: 20px;
+    text-align: left;
+}
+
+input{
+    margin-bottom: 20px;
+    font-size: 2em;
+    color: #000000;
+}
+a{
+    color: #ffffff;
+    font-size: 1em;
+}
+
+footer{
+    position: fixed;
+    font-weight: bold;
+    text-align: right;
+    bottom: 10px;
+    right: 10px;
+}
+#toonGegevens{
+    color: red;
+    font-size: 5em;
+}
+
+/*aantalSpelers*/
+
+#selecteerfoto {
+    float: left;
+}
+
+#selecteerfoto img{
+    height: 250px;
+    margin-left: 100px;
+    
+}
+
+#selecteerfoto ul {
+    position: absolute;
+    right: 450px;
+    top: 320px;
+}
+
+#aantal2:hover {
+    height: 270px;
+    right: 450px;
+
+}
+
+#aantal3:hover {
+    height: 270px;
+    right: 450px;
+
+}
+#aantal4:hover {
+    height: 270px;
+    right: 450px;
+
+}
+
+#selecteerfoto li{
+    display: inline-block;
+}
+
+/*eindscore*/
+#eindscore {
+    margin-top: 80px;
+    margin-left: auto;
+    margin-right: auto;  
+}
+
+.spelerrank  td{
+    padding: 30px;
+    color: #994d00;
+    font-size: 2.2rem;
+    font-family: Copperplate Gothic;
+    font-weight: bold;
+}
+
+#rankingtitels {
+    font-family: "Old English Text MT";
+    color: #994d00;
+    font-size: 3.3em;
+    margin-bottom: 20px;
+}
+
+#achtergrondrank {
+        background-image: url("../images/rsz_2-1.png"); 
+        background-repeat: round;
+        background-size: 100%;
+        padding: 3px;
+        padding-bottom: 60px;
+        
+}
+
+#end {
+    padding-bottom: 50px;
+}
+
+/*highscore*/
+.leaderrank td {
+    padding: 10px;
+    color: #994d00;
+    font-size: 1.8rem;
+    font-family: Copperplate Gothic;
+    font-weight: bold;
+}
+
+#Leaderboard {
+    font-family: "Old English Text MT";
+    color: #994d00;
+    font-size: 3.3em;
+    margin-bottom: 20px;
+}
+
+#Leaderboard .rank th {
+    margin-bottom: 15px;
+}

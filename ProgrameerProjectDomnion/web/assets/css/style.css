@@ -1,0 +1,339 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 22-mrt-2016, 14:03:26
+    Author     : michield
+*/
+h1 {
+    font-family: "Old English Text MT";
+    font-size: 50px;
+    color:#d9a822;
+}
+
+
+body{
+    background-image: url("../media/achtergrond.png");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-color: gray
+   
+
+}
+#containerselect{
+    text-align: center;
+    width:60%;
+    margin: 0 auto;
+}
+
+
+#selecteerkaarten{
+    width:90%;
+    height: 400px;
+    margin: 0 auto;
+    float:left;
+}
+#kaarten img{
+    width:180px;
+    margin-top: 50px;
+}
+#kaarten{
+
+}
+.Arrows{
+    display:block;
+
+    width:150px;
+}
+#left{
+    margin-left:50px;
+    float:left;
+    margin: auto 0;
+}
+
+#right{
+    float:right;
+}
+.hide{
+    display: none
+}
+.logo,.speler1, .speler2, .speler3, .speler4,.registrerenlogo, .loginlogo{
+    margin-bottom: 140px;
+    width: 631px;
+    height: 200px;
+}
+
+#keuzeSpeler, #registreren, #login{
+    margin-top: 105px;
+}
+
+
+.registreren,.login,.guest{
+    margin-bottom: 20px;
+    width: 258px;
+    height: 75px;
+}
+
+.back{
+    width:242px;
+    height:114px;
+    position: absolute;
+    left: 10px;
+    bottom: 50px;
+}
+
+.next{
+    width:242px;
+    height:114px;
+    position: absolute;
+    right: 10px;
+    bottom: 50px;
+}
+
+#registratieform, #loginform{
+    text-align: left;
+    margin-left: 38%;
+}
+
+#gebruikersnaam, #logingebruikersnaam{
+    margin-left: 4%;
+}
+#wachtwoord, #loginwachtwoord{
+    margin-left: 8%;
+}
+label{
+    font-size: 2em;
+    font-weight: bold;
+    color: #FFFFFF;
+    margin-bottom: 20px;
+    text-align: left;
+}
+
+input{
+    margin-bottom: 20px;
+    border-radius: 10px;
+    font-size: 2em;
+    color: #000000;
+}
+a{
+    color: #ffffff;
+    font-size: 1em;
+}
+
+footer{
+    position: fixed;
+    font-weight: bold;
+    text-align: right;
+    bottom: 10px;
+    right: 10px;
+}
+#toonGegevens{
+    color: red;
+    font-size: 5em;
+}
+
+.hiddendiv{
+    display: none;
+    visibility: hidden;
+}
+
+.geselecteerdeKaarten{
+
+    max-height: 300px;
+    margin-left: 65px;
+}
+
+.geselecteerdeKaarten img{
+    height:300px;
+    margin:0;
+    padding:0;
+}
+.geselecteerdeKaarten .slide{
+    margin: 0;
+    padding: 0;
+    margin-right: 0;
+    margin-left: 0;
+}
+/*
+gameplay
+*/
+
+#container{
+    margin-top: 100px;
+}
+#holdstats{
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    width: 200px;
+}
+#holdamountstats{
+    position: absolute;
+    top: 20px;
+    left: 240px;
+    width: 60px;
+}
+.stats{
+    height:60px;
+}
+.achtergrondgetal{
+    width:60px;
+    height: 60px;
+}
+
+#spelerAanZet{
+    position: absolute;
+    top: 20px;
+    right: 20px;
+}
+#spelerAanZet img{
+    height:50px;
+}
+#spelerAanZet #activespeler{
+    height:70px;
+}
+.activeplayer img{
+    height: 100px;
+}
+
+#voorraad{
+    margin:0 auto;
+    margin-top: 150px;
+    width: 700px;
+}
+#voorraad img{
+    width: 50px;
+    margin-right:10px;
+}
+
+/*TODO: counter fixen bij hover*/
+#voorraad img:hover{
+   
+    width: 250px;
+    height: 399px;
+    position: absolute;
+    
+}
+#voorraad span{
+    position:relative;
+    left:-20px;
+    top:-65px;
+    background: #d9a822;
+    color: #000000;
+    border-radius: 200px 200px 200px 200px;
+    -moz-border-radius: 200px 200px 200px 200px;
+    -webkit-border-radius: 200px 200px 200px 200px;
+    border: 0px solid #000000;
+
+}
+.counter{
+    display: block;
+}
+#puntenEnMunten{
+    float: right;
+    width: 500px;
+    margin-top: -94px;
+    margin-left: 50px;
+}
+#punten span{
+    position:relative;
+    left:-15px;
+    top:-95px;
+    background: #d9a822;
+    color: #000000;
+    border-radius: 200px 200px 200px 200px;
+    -moz-border-radius: 200px 200px 200px 200px;
+    -webkit-border-radius: 200px 200px 200px 200px;
+    border: 0px solid #000000;
+
+}
+#munten span{
+    position:relative;
+    left:-15px;
+    top:-95px;
+    background: #d9a822;
+    color: #000000;
+    border-radius: 200px 200px 200px 200px;
+    -moz-border-radius: 200px 200px 200px 200px;
+    -webkit-border-radius: 200px 200px 200px 200px;
+    border: 0px solid #000000;
+
+}
+#puntenEnMunten img{
+    margin-top: 10px;
+    width: 70px;
+    margin-left: 10px;
+}
+#drawdeck{
+
+}
+#drawdeck img{
+    height: 100px;
+    bottom: 200px;
+    position: absolute;
+}
+#folddeck{
+    width: 300px;
+}
+#folddeck img{
+    height: 100px;
+    bottom: 80px;
+    position: absolute;
+}
+#folddeck img:first-child{
+    position: absolute;
+    left: 20px;
+}
+#folddeck img:nth-child(2){
+    left: 30px;
+}
+#folddeck img:nth-child(3){
+    left: 40px;
+}
+#drawdeck img:first-child{
+    position: absolute;
+    left: 20px;
+}
+#drawdeck img:nth-child(2){
+    left: 30px;
+}
+#drawdeck img:nth-child(3){
+    left: 40px;
+}
+#hand{
+    position:absolute;
+    left:35%;
+    margin-left:-25px;
+    bottom: 20px;
+}
+#hand img{
+    height: 200px;
+    bottom: 30px;
+
+}
+/*mooi afwerken*/
+#hand img:hover{
+    width: 250px;
+    height: 399px;
+    position: absolute;
+}
+/*stats*/
+#aankooppunten{
+    position: absolute;
+    left: 22px;
+    top: 25px;
+}
+
+#actiepunten{
+    position: absolute;
+    left: 22px;
+    top: 85px;
+}
+
+#extramunten{
+    position: absolute;
+    left: 22px;
+    top: 145px;
+}

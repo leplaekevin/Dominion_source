@@ -1,0 +1,702 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 22-mrt-2016, 14:03:26
+    Author     : michieldick
+*/
+
+
+
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 22-mrt-2016, 14:03:26
+    Author     : michield
+*/
+#resToLow{
+    display: none;
+    z-index: 999999999; 
+}
+#eindscore {
+    margin-top: 80px;
+    margin-left: auto;
+    margin-right: auto;  
+}
+
+.spelerrank  td{
+    padding: 30px;
+    color: #994d00;
+    font-size: 2.2rem;
+    font-family: Copperplate Gothic;
+    font-weight: bold;
+}
+
+#rankingtitels {
+    font-family: "Old English Text MT";
+    color: #994d00;
+    font-size: 3.3em;
+    margin-bottom: 20px;
+}
+
+#achtergrondrank {
+        background-image: url("../images/rsz_2-1.png"); 
+        background-repeat: round;
+        background-size: 100%;
+        padding: 3px;
+        padding-bottom: 60px;
+        
+}
+
+
+/*highscore*/
+.leaderrank td {
+    padding: 10px;
+    color: #994d00;
+    font-size: 1.8rem;
+    font-family: Copperplate Gothic;
+    font-weight: bold;
+}
+
+#Leaderboard {
+    font-family: "Old English Text MT";
+    color: #994d00;
+    font-size: 3.3em;
+    margin-bottom: 20px;
+}
+
+#Leaderboard .rank th {
+    margin-bottom: 15px;
+}
+
+.checks {
+    color: white;
+    font-size: 1.5rem;
+    
+}
+
+.selectable {
+  outline: 4px #e6b800 solid;
+  outline-offset: -4px;
+}
+
+#selecteerfoto img{
+    height: 250px;
+    margin-left: 50px;   
+}
+
+#selecteerfoto ul {
+    margin: 0 auto;
+    margin-top: 130px;
+    margin-right: 60px;
+}
+
+#selecteerfoto li{
+    display: inline-block;   
+}
+
+.bx-wrapper {
+    margin-bottom: 20px;
+}
+#keuzeVoorgemaakteDecks p{
+    font-size: 1.9em;
+    color: #d9a822;
+    font-family: "Old English Text MT";
+}
+
+#keuzeVoorgemaakteDecks{
+    margin-top: 30px;
+    margin-bottom: 18px;
+    width: 80%;
+    margin-left: 21%;
+    margin-right: auto;
+        
+}
+#voorgemaakteDecks li{
+    padding-left: 10px;
+    padding-top: 10px;
+    padding-bottom: 5px;
+    border: solid 2px #e6b800;
+    border-radius: 10px;
+    background-color: #ccc;
+}
+
+h1 {
+    font-family: "Old English Text MT";
+    font-size: 5em;
+    color:#d9a822;
+    text-align: center;
+    margin-bottom: 5px;
+    margin-top: 5px;
+}
+
+#selecteerAantalSpelers{
+    margin: 0 auto;
+    margin-top: 60px;
+    font-family: "Old English Text MT";
+    font-size: 3em;
+    color: #d9a822;
+}
+
+.registreren,.login,.guest, .score, .start {
+    margin-bottom: 20px;
+    border-radius: 3px;
+    width: 258px;
+    height: 75px;
+}
+
+.inline{
+    display: inline;
+    margin-right: 2%;
+}
+
+.inline label {
+    font-size: 1.7em;
+}
+
+body{
+    background-image: url("../media/achtergrond.png");
+    background-size: 130%;
+    background-repeat: no-repeat;
+    background-color: gray;
+    min-width: 1200px;
+     overflow-x: hidden;
+}
+#containerselect{
+    text-align: center;
+    width:60%;
+    margin: 0 auto;
+}
+
+
+#selecteerkaarten{
+    width:90%;
+    height: 400px;
+    margin: 0 auto;
+    float:left;
+}
+#kaarten img{
+    width:180px;
+    margin-top: 50px;
+}
+#kaarten{
+
+}
+.Arrows{
+    display:block;
+
+    width:150px;
+}
+#left{
+    margin-left:50px;
+    float:left;
+    margin: auto 0;
+}
+
+#right{
+    float:right;
+}
+.hide{
+    display: none
+}
+
+.logo,.speler1, .speler2, .speler3, .speler4,.registrerenlogo, .loginlogo{
+    margin-bottom: 85px;
+    margin-top: 50px;
+    width: 631px;
+    height: 200px;
+}
+
+#keuzeSpeler, #login{
+    margin-top: 105px;
+}
+
+#registreren {
+   margin-top: 20px;
+    text-align: left;
+}
+
+
+.registreren,.login,.guest{
+    margin-bottom: 20px;
+    width: 258px;
+    height: 75px;
+}
+
+.back{
+    width:242px;
+    height:114px;
+    position: absolute;
+    left: 10px;
+    bottom: 2%;
+}
+
+.next{
+    width:242px;
+    height:114px;
+    position: absolute;
+    right: 10px;
+    bottom: 2%;
+}
+
+.button{
+    width:150px;
+    height:50px;
+    position: absolute;
+    right: 15%;
+    bottom: 5%;
+    border: solid 2px #ffe066;
+    margin-right: 10px;
+    
+}
+
+button.button {
+   color: #ffe066;  
+}
+
+#registratieform, #loginform{
+    text-align: left;
+    margin-left: 32.5%;
+}
+
+#gebruikersnaam, #logingebruikersnaam{
+    margin-left: 5%;
+}
+#wachtwoord, #loginwachtwoord{
+    margin-left: 150px;
+}
+
+#wachtwoordregistratie {
+    margin-left: 103px;
+}
+
+input[type=text] {
+    
+    border-radius: 4px;
+}
+
+input[type=password] {
+    
+    border-radius: 4px;
+}
+
+
+label{
+    font-size: 2em;
+    font-weight: bold;
+    color: #FFFFFF;
+    margin-bottom: 20px;
+    text-align: left;
+    
+}
+
+.labelstyle {
+    margin-right: 50px;
+}
+
+input {
+    margin-bottom: 20px;
+    font-size: 2em;
+    color: #000000;
+    margin-left: 20px;
+}
+
+#gebruikersnaam {
+    margin-left: 95px;
+}
+
+#guest {
+    margin-left: -113px;
+    padding-right: 123px;
+}
+
+#checkwachtwoord {
+    margin-left: 37px;
+}
+
+
+
+a{
+    color: #ffffff;
+    font-size: 1em;
+}
+
+footer{
+    position: fixed;
+    font-weight: bold;
+    text-align: right;
+    bottom: 10px;
+    right: 10px;
+}
+#toonGegevens{
+    color: red;
+    font-size: 5em;
+}
+
+.hiddendiv{
+    display: none;
+    visibility: hidden;
+}
+
+.geselecteerdeKaarten{
+
+    max-height: 300px;
+    margin-left: 65px;
+}
+
+.geselecteerdeKaarten img{
+    height:200px;
+    margin:0;
+    padding:0;
+}
+.geselecteerdeKaarten .slide{
+    margin: 0;
+    padding: 0;
+    margin-right: 0;
+    margin-left: 0;
+}
+/*
+scoreboard
+*/
+
+
+#logoScoreBoard{
+    width: 500px;
+    margin:0 auto;
+    margin-top:-100px;
+}
+
+#end {
+   font-size: 50px;
+}
+
+/*
+gameplay
+*/
+
+#container{
+    margin-top: 100px;
+    text-align: center;
+}
+#holdstats{
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    width: 200px;
+}
+#log{
+    position: absolute;
+    top: 250px;
+    left: 20px;
+    width: 300px;
+    height: 200px;
+    border-radius: 15px 15px 15px 15px;
+    -moz-border-radius: 15px 15px 15px 15px;
+    -webkit-border-radius: 15px 15px 15px 15px;
+    border: 5px solid #000000;
+    background: rgba(0,0,0,0.85);
+    background: -moz-linear-gradient(top, rgba(0,0,0,0.85) 0%, rgba(0,0,0,0.83) 7%, rgba(0,0,0,0.73) 42%, rgba(0,0,0,0.71) 51%, rgba(0,0,0,0.67) 66%, rgba(0,0,0,0.57) 100%);
+    background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(0,0,0,0.85)), color-stop(7%, rgba(0,0,0,0.83)), color-stop(42%, rgba(0,0,0,0.73)), color-stop(51%, rgba(0,0,0,0.71)), color-stop(66%, rgba(0,0,0,0.67)), color-stop(100%, rgba(0,0,0,0.57)));
+    background: -webkit-linear-gradient(top, rgba(0,0,0,0.85) 0%, rgba(0,0,0,0.83) 7%, rgba(0,0,0,0.73) 42%, rgba(0,0,0,0.71) 51%, rgba(0,0,0,0.67) 66%, rgba(0,0,0,0.57) 100%);
+    background: -o-linear-gradient(top, rgba(0,0,0,0.85) 0%, rgba(0,0,0,0.83) 7%, rgba(0,0,0,0.73) 42%, rgba(0,0,0,0.71) 51%, rgba(0,0,0,0.67) 66%, rgba(0,0,0,0.57) 100%);
+    background: -ms-linear-gradient(top, rgba(0,0,0,0.85) 0%, rgba(0,0,0,0.83) 7%, rgba(0,0,0,0.73) 42%, rgba(0,0,0,0.71) 51%, rgba(0,0,0,0.67) 66%, rgba(0,0,0,0.57) 100%);
+    background: linear-gradient(to bottom, rgba(0,0,0,0.85) 0%, rgba(0,0,0,0.83) 7%, rgba(0,0,0,0.73) 42%, rgba(0,0,0,0.71) 51%, rgba(0,0,0,0.67) 66%, rgba(0,0,0,0.57) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#000000', endColorstr='#000000', GradientType=0 );
+    -webkit-box-shadow: 5px 5px 17px 3px rgba(0,0,0,0.75);
+    -moz-box-shadow: 5px 5px 17px 3px rgba(0,0,0,0.75);
+    box-shadow: 5px 5px 17px 3px rgba(0,0,0,0.75);
+    color: white;
+    overflow: hidden;
+}
+#holdamountstats{
+    position: absolute;
+    top: 20px;
+    left: 240px;
+    width: 60px;
+}
+.stats{
+    height:60px;
+    border-radius: 5px;
+}
+.achtergrondgetal{
+    width:60px;
+    height: 60px;
+}
+
+#spelerAanZet{
+    position: absolute;
+    top: 20px;
+    right: 20px;
+}
+#spelerAanZet img{
+    height:50px;
+}
+#spelerAanZet #activespeler{
+    height:70px;
+}
+.activeplayer img{
+    height: 100px;
+}
+
+#voorraad{
+    margin:0 auto;
+    margin-top: 150px;
+    width: 1100px;
+
+}
+#voorraad img{
+    width: 70px;
+    margin-right:10px;
+
+}
+
+/*TODO: counter fixen bij hover*/
+#voorraad img:hover{
+    
+    transform: scale(4);
+    
+}
+#voorraad span{
+    position:relative;
+    left:-20px;
+    top:-100px;
+    background: #d9a822;
+    color: #000000;
+    border-radius: 200px 200px 200px 200px;
+    -moz-border-radius: 200px 200px 200px 200px;
+    -webkit-border-radius: 200px 200px 200px 200px;
+    border: 0px solid #000000;
+
+}
+.counter{
+    display: block;
+}
+#puntenEnMunten{
+    float: right;
+    width: 500px;
+    margin-top: -94px;
+    margin-left: 50px;
+}
+#punten img:hover,#munten img:hover{
+    transform: scale(4);
+}
+#punten span{
+    position:relative;
+    left:-15px;
+    top:-95px;
+    background: #d9a822;
+    color: #000000;
+    border-radius: 200px 200px 200px 200px;
+    -moz-border-radius: 200px 200px 200px 200px;
+    -webkit-border-radius: 200px 200px 200px 200px;
+    border: 0px solid #000000;
+
+}
+#munten span{
+    position:relative;
+    left:-15px;
+    top:-95px;
+    background: #d9a822;
+    color: #000000;
+    border-radius: 200px 200px 200px 200px;
+    -moz-border-radius: 200px 200px 200px 200px;
+    -webkit-border-radius: 200px 200px 200px 200px;
+    border: 0px solid #000000;
+
+}
+#puntenEnMunten img{
+    margin-top: 10px;
+    width: 70px;
+    margin-left: 10px;
+}
+#folddeck{
+
+}
+#folddeck img{
+    height: 100px;
+    bottom: 200px;
+    position: absolute;
+}
+#drawdeck{
+    width: 300px;
+}
+#drawdeck img{
+    height: 100px;
+    bottom: 80px;
+    position: absolute;
+}
+#drawdeck img:first-child{
+    position: absolute;
+    left: 20px;
+}
+#drawdeck img:nth-child(2){
+    left: 30px;
+}
+#drawdeck img:nth-child(3){
+    left: 40px;
+}
+#folddeck img:first-child{
+    position: absolute;
+    left: 20px;
+}
+#folddeck img:nth-child(2){
+    left: 30px;
+}
+#folddeck img:nth-child(3){
+    left: 40px;
+}
+#folddeck img{
+    left: 40px;
+}
+#hand{
+    position:absolute;
+    left:30%;
+    margin-left:-25px;
+    bottom: 20px;
+}
+#hand img{
+    height: 200px;
+    bottom: 30px;
+
+}
+/*mooi afwerken*/
+#hand img:hover{
+    width: 250px;
+    height: 399px;
+
+}
+#speelveld{
+    position:absolute;
+    left:35%;
+    margin-left:-100px;
+    bottom: 350px;
+}
+#speelveld img{
+    height: 200px;
+    bottom: 30px;
+
+}
+/*stats*/
+#aankooppunten{
+    position: absolute;
+    left: 22px;
+    top: 25px;
+}
+
+#actiepunten{
+    position: absolute;
+    left: 22px;
+    top: 85px;
+}
+
+#extramunten{
+    position: absolute;
+    left: 22px;
+    top: 145px;
+}
+
+.button {
+    background: #660000; 
+    color: whitesmoke;
+    display: inline-block;
+    border-radius: 4px;
+    box-shadow: inset 0 1px 0 rgba(255,255,255,0.2);
+    font-family: Arial, sans-serif;
+    line-height: 2.5em;
+    padding: 0 3em;
+    text-decoration: none; 
+}
+
+/*fases*/
+#fases{
+    margin-top: 75px;
+    width: 250px;
+
+}
+#fases img{
+    width:250px;
+
+}
+
+
+
+@media screen and (max-width:1800px){
+    #voorraad{
+        width: 550px;
+
+
+    }
+
+    #puntenEnMunten{
+        float: right;
+        width: 380px;
+        margin-top: -240px;
+        margin-left: 0px;
+    }
+    #puntenEnMunten img{
+        margin-left:0px;
+    }
+    /*fases*/
+    #fases{
+        margin-top: 15px;
+        width: 250px;
+        float:right;
+        margin-right: 25px;
+
+    }
+    #fases img{
+        width:250px;
+
+    }
+    #log{
+        width: 250px;
+    }
+    .stats,.achtergrondgetal{
+        height: 50px;
+    }
+    .achtergrondgetal{
+        width:50px;
+    }
+    #aankooppunten {
+    position: absolute;
+    left: 15px;
+    top: 15px;
+}
+#actiepunten{
+   position: absolute;
+    left: 15px;
+    top: 70px;  
+}
+#extramunten {
+    position: absolute;
+    left: 15px;
+    top: 122px;
+}
+#holdamountstats {
+    position: absolute;
+    top: 20px;
+    left: 220px;
+    width: 60px;
+}
+}
+
+
+@media screen and (max-width:1200px){
+    body{
+    display: none;
+     background-image: url("../media/achtergrondLowRes.png");
+     background-repeat: no-repeat;
+     background-size: cover;
+}
+ #resToLow{
+    display: inline;
+    z-index: 9999; 
+}
+
+}
+
